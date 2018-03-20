@@ -1,0 +1,32 @@
+{
+  "name": "figurejourney-server",
+  "version": "1.0.0",
+  "description": "数字旅途（小程序）服务端。",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BingKui/FigureJourney-Server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "koa2",
+    "koa-router",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "康兵奎",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BingKui/FigureJourney-Server/issues"
+  },
+  "homepage": "https://github.com/BingKui/FigureJourney-Server#readme",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.0.10",
+    "uuid": "^3.2.1"
+  }
+}
