@@ -7,7 +7,9 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1521614982961_5955';
 
   // add your config here
-  config.middleware = [];
-
+  config.middleware = [ 'gzip' ];
+  config.gzip = {
+    threshold: 1024, // 小于1K响应不压缩
+  };
   return config;
 };

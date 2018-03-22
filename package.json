@@ -39,17 +39,19 @@
   },
   "homepage": "https://github.com/BingKui/FigureJourney-Server#readme",
   "dependencies": {
-    "koa": "^2.5.0",
-    "koa-router": "^7.4.0",
-    "mongoose": "^5.0.10",
-    "uuid": "^3.2.1",
     "autod": "^3.0.1",
     "autod-egg": "^1.0.0",
-    "egg-bin": "^4.3.5",
+    "egg": "^2.5.0",
     "egg-ci": "^1.8.0",
     "egg-mock": "^3.14.0",
     "eslint": "^4.11.0",
     "eslint-config-egg": "^6.0.0",
+    "koa-is-json": "^1.0.0",
+    "mongoose": "^5.0.10",
+    "uuid": "^3.2.1",
     "webstorm-disable-index": "^1.2.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.3.7"
   }
 }
